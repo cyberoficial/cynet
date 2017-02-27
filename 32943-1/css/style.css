@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+}
+body {
+	background: #fff;
+}
+.wrap {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 161px;
+}
+img {
+	margin-bottom: -4px;
+}
+
+/*CONTAINER NAVBAR*/
+
+.cont-navbar {
+	width: 100%;
+	height: 46PX;
+	position: fixed;
+	background: #fff;
+}
+
+	/*BRAND*/
+
+	.brand {
+		width: 40%;
+		float: left;
+	}
+	.img-brand {
+		width: 80px;
+		padding: 10px;
+	}
+
+	/*END BRAND*/
+
+	/*CONTENT NAVBAR NAVBAR*/
+
+	.navbar {
+		width: 60%;
+		float: left;
+		margin: 0 auto;
+	}
+	.navgation {
+		margin: 0 auto;
+	}
+	.ul-navbar {
+		display: block;
+		padding: 5px;
+	}
+	.li-navbar {
+		list-style-type: none;
+		display: inline-block;
+		margin: 5px;
+		padding: 5px; 
+	}
+	.li-navbar>a {
+		padding: 5px;
+		text-decoration: none;
+		background: lightgray;
+		border-radius: 3px;
+		border-bottom: solid 2px gray;
+		color: #fff;
+	}
+	.li-navbar>a:hover {
+		padding: 5px;
+		text-decoration: none;
+		background: lightgray;
+		border-radius: 3px;
+		border-bottom: solid 2px black;
+		color: #fff;
+	}
+	/*END NAVBAR*/
+
+/*END  CONTAINER NAVBAR*/
+
+/*CONTAINER HEADER*/
+
+.cont-header {
+	width: 100%;
+	height: 100px;
+	margin-top: 46px;
+	position: fixed;
+	background-image: url("../media/header.jpg");
+}
+
+	/*HEADER*/
+
+	.header {
+	
+	}
+
+	/*END HEADER*/
+
+/*END CONTAINER HEADER*/
+
+/*CONTAINER ASIDE*/
+
+.cont-aside {
+	width: 30%;
+	height: 600px;
+	float: left;
+
+	background: #fff;
+}
+	
+	/*ASIDE*/
+	.aside {
+
+	}
+	.aside-featured {
+
+	}
+	.aside-ads {
+
+	}
+	.aside-sponsors {
+
+	}
+	/*END ASIDE*/
+
+/*END CONTAINER ASIDE*/
+
+/*CONTAINER MEDDLE*/
+
+.cont-meddle {
+	width: 70%;
+	float: left;
+}
+
+	/*CONTENT POST*/
+	.post {
+		width: 100%;
+		background: #fff;
+		float: left;
+	}
+	.section-post {
+		width: 100%;
+	}
+	.article-post {
+		width: 100%;
+	}
+	.div-avatar-post {
+		width: 10%;
+		background: #fff;
+		float: left;
+	}
+	.avatar-post {
+		width: 66px;
+		margin-bottom: -4px; 
+	}
+	.semantics-post {
+		width: 90%;
+		float: left;
+	}
+	.div-date-hour {
+
+	}
+	.date-hour {
+
+	}
+	.div-p-post {
+
+	}
+	.p-post {
+
+	}
+	.div-img-post {
+
+	}
+	.img-post {
+
+	}
+	/*END CONTENT POST*/
+
+/*END CONTAINER MEDDLE*/
+
+/*CONTAINER FOOTER*/
+
+.cont-footer {
+	width: 100%;
+	height: 200px;
+	clear: both;
+
+	background: #fff;
+}
+
+	/*CONTENT FOOTER*/
+	.footer {
+
+	}
+	/*END CONTENT FOOTER*/
+
+/*END CONTAINER FOOTER*/
